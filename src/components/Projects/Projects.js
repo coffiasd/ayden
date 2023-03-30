@@ -25,68 +25,79 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="realtime-notifications-frontend"
+              description="This is gitcoin hackathon project.We built an algoland blockchain realtime notifications server."
+              ghLink="https://github.com/coffiasd/realtime-notifications-frontend"
+              demoLink="http://realtime-notifications-frontend.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="StorageWizard"
+              description="This is a gitcoin hackathon NFTs project based on web3.storage and other dependencies above.User can mint a NFT which is generate by themself."
+              ghLink="https://github.com/coffiasd/hackathon-web3-storage"
+              demoLink="http://hackathon-web3-storage.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chatify}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="hackathon-rss3"
+              description="this is a project for hackathon Social Hour based on rss3 protocal.We use rss3 protocal to collection some data like transactions and social posts"
+              ghLink="https://github.com/coffiasd/hackathon-rss3"
+              demoLink="https://hackathon-rss3-ayden-lee.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={chatify}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Hyperlane defi"
+              description="This is a project for hyperlane gitcoin hackathon.We build a project to help exchange tokens on different remote chains without deploying smart contract on remote chains.The swap process is based on uniswap v3 protocol.We get the pool address from the two choose tokens"
+              ghLink="https://github.com/coffiasd/hyperlane-defi"
+              demoLink="http://hyperlane-defi.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={chatify}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="airdrop-hunters-killer"
+              description="This is OpenData-Community hackathon project build for identify sybil attackers on blockchains. As we know it's easy for sybil attackers to isolation addresses.Advanced sybil attackers usually cut off the connection between their addresses"
+              ghLink="https://github.com/coffiasd/airdrop-hunters-killer"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chatify}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="algo-bridge-aggregator"
+              description="This is Greenhouse Hacks 3 project. I build a front-end UI to help user transfer their assets to wherever network they want. This project is built with wormhole bridge SDK, i originally planned to gather glitter as well"
+              ghLink="https://github.com/coffiasd/algo-bridge-aggregator"
+              demoLink="https://algo-bridge-aggregator.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="highway-nfts"
+              description="Our project is a unique application of the Hyperlane ERC721 technology, which enables the creation and transfer of non-fungible tokens (NFTs) across multiple blockchain networks. With this technology, users can mint and transfer their custom-designed avatar NFTs to any supported blockchain network in just one simple step"
+              ghLink="https://github.com/coffiasd/highway-nfts"
+              demoLink="https://highway-nfts.vercel.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
